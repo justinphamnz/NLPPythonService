@@ -2,11 +2,11 @@
 Python service written on Python with all virtual environment setup, ready to deploy to IIS or Azure Web App
 
 # env folder need to be replaced direct to source code through FTP, it will reduce a lot of hassle on server.
--Install all required packages 
---Window environment required wheel installed cd C:/Project/Basket/env/Scripts pip install wheel
---In order to install scikit-learn, numpy+mkl wheel need to be installed and then install scipy otherwise, it's no complier supported for scipy on Window
---Install scikit-learn. 
---All installation should be done on local virtual environment and ship it to env on server. 
+	.Install all required packages 
+	.Window environment required wheel installed cd C:/Project/Basket/env/Scripts pip install wheel
+	.In order to install scikit-learn, numpy+mkl wheel need to be installed and then install scipy otherwise, it's no complier supported for scipy on Window
+	.Install scikit-learn. 
+	.All installation should be done on local virtual environment and ship it to env on server. 
 
 # Note for web.config
 <appSettings>
